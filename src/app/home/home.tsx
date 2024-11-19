@@ -1,10 +1,11 @@
-// src/app/(home)/page.tsx
-
-
-import Typography from "@mui/material/Typography";
-
+// pages/index.js
 export default function Home() {
+  const name = "Tvoje meno"; // Nahrad "Tvoje meno" svojím menom
+
   return (
-    <Typography>Domovská stránka</Typography>
+    <div>
+      <h1>Vitaj na mojej Home stránke!</h1>
+      <p>Moje meno je {name}.</p>
+    </div>
   );
 }
